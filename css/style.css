@@ -24,7 +24,7 @@ h1 {
 /* main  */
 section > p {
   margin-bottom: 50px;
-  text-align: justify;
+  text-align: center;
 }
 
 header {
@@ -40,9 +40,15 @@ header {
   margin: 0.5rem;
 }
 
+.center-txt {
+  line-height: calc(80px / 3);
+  padding: 10px 0;
+}
+
 div.cards-utility img {
   height: 100px;
   float: left;
+  padding-right: 10px;
 }
 .clearfix::after {
   content: "";
