@@ -21,17 +21,16 @@ h1 {
   font-weight: bolder;
 }
 
+header {
+  margin: 50px;
+}
+
 /* main  */
 section > p {
   margin-bottom: 50px;
   text-align: center;
 }
 
-header {
-  margin: 50px;
-}
-
-/* utiities */
 .cards-utility {
   background-color: black;
   color: white;
@@ -40,25 +39,30 @@ header {
   margin: 0.5rem;
 }
 
-.center-txt {
-  line-height: calc(80px / 3);
-  padding: 10px 0;
-}
-
 div.cards-utility img {
   height: 100px;
   float: left;
   padding-right: 10px;
 }
-.clearfix::after {
+
+.row {
+  margin-left: -0.5rem;
+  margin-right: -0.5rem;
+}
+
+/* Ho fatto il clearfix direttamente in row per avere un HTML più pulito con una classe in meno :) */
+
+.row::after {
   content: "";
   display: table;
   clear: both;
 }
 
-.row {
-  margin-left: -0.5rem;
-  margin-right: -0.5rem;
+/* utiities */
+
+.center-txt {
+  line-height: calc(80px / 3);
+  padding: 10px 0;
 }
 
 a {
