@@ -1,0 +1,57 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  width: 1080px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* header */
+
+h1 {
+  color: #e53170;
+  text-align: center;
+  font-weight: bolder;
+}
+
+/* main  */
+div > p {
+  margin-bottom: 50px;
+}
+
+header {
+  margin: 50px;
+}
+
+/* utiities */
+.cards-utility {
+  background-color: black;
+  color: white;
+  width: calc(100% / 3);
+  text-align: left;
+  display: inline-block;
+}
+
+div.cards-utility img {
+  height: 100px;
+  float: left;
+}
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+a {
+  text-decoration: none;
+  color: #5eb8da;
+  padding: 0px;
+}
